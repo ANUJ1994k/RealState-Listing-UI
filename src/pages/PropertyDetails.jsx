@@ -40,7 +40,7 @@ const PropertyDetails = () => {
         <p className="text-gray-600"><strong>Type:</strong> {property.type}</p>
         <p className="text-gray-600 mb-2"><strong>Amenities:</strong> {property.amenities.join(", ")}</p>
 
-        {/* Enquiry button */}
+        {/* button */}
         <button
           onClick={() => alert("📩 Enquiry Form (Under development)")}
           className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"

@@ -61,7 +61,7 @@ export const usePropertyStore = create(
       },
     }),
     {
-      name: "property-store", // key for localStorage
+      name: "property-store", 
     }
   )
 );

@@ -32,9 +32,9 @@ const Home = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">🏠 Property Listings</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">🏠 Property</h1>
 
-      {/* Filters (same as before) */}
+      {/* Filters*/}
       <div className="bg-gray-100 p-4 rounded-lg mb-6 grid grid-cols-1 md:grid-cols-4 gap-4">
         <input type="number" placeholder="Min Price" className="p-2 rounded border" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} />
         <input type="number" placeholder="Max Price" className="p-2 rounded border" value={maxPrice} onChange={(e) => setMaxPrice(e.target.value)} />

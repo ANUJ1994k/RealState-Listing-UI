@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
 import React from "react";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="bg-white shadow px-6 py-4 flex justify-between items-center">
